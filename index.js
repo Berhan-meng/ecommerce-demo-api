@@ -37,8 +37,8 @@ app.post("/payment/create", async (req, res) => {
     });
   }
 });
-app.listen(5000, (err) => {
-  if (err) throw err;
-  console.log("Amazon server running on 5000,http://localhost:5000");
-});
+// app.listen(5000, (err) => {
+//   if (err) throw err;
+//   console.log("Amazon server running on 5000,http://localhost:5000");
+// });
 
